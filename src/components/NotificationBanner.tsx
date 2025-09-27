@@ -13,7 +13,7 @@ function NotificationBanner() {
   React.useEffect(() => {
     // targetDate = 4 days from now
     const targetDate = new Date();
-    targetDate.setDate(targetDate.getDate() + 5);
+    targetDate.setDate(targetDate.getDate() + 4);
 
     const timer = setInterval(() => {
       const now = new Date();
