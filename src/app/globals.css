@@ -23,3 +23,25 @@
 body {
   background: #fcfcfc;
 }
+
+
+/* Style the entire scrollbar */
+::-webkit-scrollbar {
+ width: 6px; /* Set the width of the vertical scrollbar */
+  height: 4px;
+/* Set the height of the horizontal scrollbar */
+}
+
+/* Style the scrollbar track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+ 
+}
+
+/* Style the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+

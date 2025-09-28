@@ -1,3 +1,5 @@
+import { SVGProps } from "react";
+
 export const LogoIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -65,7 +67,7 @@ export const LogoIcon = () => (
   </svg>
 );
 
-export const CaretRight = ()=>(
+export const CaretRight = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="24"
@@ -82,3 +84,37 @@ export const CaretRight = ()=>(
     />
   </svg>
 );
+
+export const Menu = () => (
+  <svg
+    className=" w-5 h-6"
+    viewBox="0 0 21 8"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linecap="round"
+  >
+    <line x1="0" y1="1" x2="21" y2="1"></line>
+    <line x1="0" y1="4" x2="21" y2="4"></line>
+    <line x1="0" y1="7" x2="21" y2="7"></line>
+  </svg>
+);
+
+
+export const SvgComponent = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={24}
+    height={25}
+    fill="none"
+    {...props}
+  >
+    <path
+      stroke="#020212"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={1.5}
+      d="m9 18.5 6-6-6-6"
+    />
+  </svg>
+)

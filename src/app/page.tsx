@@ -3,9 +3,9 @@ import NotificationBanner from "@/components/NotificationBanner";
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
-      <NotificationBanner />
+    <div>
+     
       <HeroSection />
-    </main>
+    </div>
   );
 }

@@ -39,7 +39,7 @@ function NotificationBanner() {
   }, []);
 
   return (
-    <div className="bg-[#b5ffa5] px-2 sm:px-4 py-3 sm:py-4 lg:px-16 w-full flex justify-center items-center gap-5">
+    <div className="bg-[#b5ffa5] px-2 sm:px-4 py-3 sm:py-4 lg:px-16 w-full flex justify-center items-center gap-5 relative   z-[1000]">
       <div className="flex items-center gap-5 cursor-pointer">
         <span className="font-grotesk  text-[#020212] text-[18px] font-medium leading-[140%] ">
           Countdown to Mainnet and TGE:
