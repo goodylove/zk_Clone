@@ -6,18 +6,6 @@ import Link from "next/link";
 import { Button } from "./ui/button";
 
 function Navbar() {
-  const [scrolled, setScrolled] = React.useState(0);
-
-  const handleScroll = () => {
-    setScrolled(window.scrollY);
-  };
-  React.useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  });
-  console.log(scrolled, window.scrollY);
   return (
     <div className="max-lg:px-0 px-6">
       <header
