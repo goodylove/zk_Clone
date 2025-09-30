@@ -10,7 +10,7 @@ const spaceGrotesk = Space_Grotesk({
   style: ["normal"],
 });
 const moniguedisplay = localFont({
-  src: "../../public/fonts/MoniguedemoRegular-gwlL1.otf",
+  src: "../../public/fonts/Monigue DEMO.otf",
   variable: "--font-monigue-display",
 });
 export const metadata: Metadata = {

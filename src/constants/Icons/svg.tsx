@@ -8,7 +8,7 @@ export const LogoIcon = () => (
     viewBox="0 0 154 32"
     fill="none"
   >
-    <g clip-path="url(#clip0_1_461)">
+    <g clipPath="url(#clip0_1_461)">
       <path
         d="M126.742 6.98491V8.1287H124.551V11.7966H126.74V23.6229H131.63V11.7966H135.689V8.1287H131.227V6.98491C131.227 5.74963 132.288 4.7447 133.594 4.7447H135.689V0.5H133.594C129.815 0.5 126.742 3.40907 126.742 6.98491Z"
         fill="#020212"
@@ -77,10 +77,28 @@ export const CaretRight = () => (
   >
     <path
       d="M9 18.5L15 12.5L9 6.5"
-      stroke="#020212"
-      stroke-width="1.5"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      stroke="#232324"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
+
+export const CaretRightBanner = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="25"
+    viewBox="0 0 24 25"
+    fill="none"
+  >
+    <path
+      d="M9 18.5L15 12.5L9 6.5"
+      stroke="#232324"
+      strokeWidth="1.1"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
   </svg>
 );
@@ -91,8 +109,8 @@ export const Menu = () => (
     viewBox="0 0 21 8"
     fill="none"
     stroke="currentColor"
-    stroke-width="2"
-    stroke-linecap="round"
+    strokeWidth="2"
+    strokeLinecap="round"
   >
     <line x1="0" y1="1" x2="21" y2="1"></line>
     <line x1="0" y1="4" x2="21" y2="4"></line>
@@ -100,21 +118,24 @@ export const Menu = () => (
   </svg>
 );
 
+interface SvgComponentProps extends SVGProps<SVGSVGElement> {
+  hover?: boolean;
+}
 
-export const SvgComponent = (props: SVGProps<SVGSVGElement>) => (
+export const SvgComponent = ({ className }: { className?: string }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={24}
     height={25}
     fill="none"
-    {...props}
+    className={className}
   >
     <path
-      stroke="#020212"
+      stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={1.5}
       d="m9 18.5 6-6-6-6"
     />
   </svg>
-)
+);
