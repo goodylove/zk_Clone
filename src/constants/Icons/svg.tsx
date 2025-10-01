@@ -88,19 +88,36 @@ export const CaretRight = () => (
 export const CaretRightBanner = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="24"
+    width="25"
     height="25"
     viewBox="0 0 24 25"
     fill="none"
+    className="duration-300 ease-in-out hover:translate-x-1 cursor-pointer font-bold"
   >
     <path
       d="M9 18.5L15 12.5L9 6.5"
       stroke="#232324"
-      strokeWidth="1.1"
+      strokeWidth="1"
       strokeLinecap="round"
       strokeLinejoin="round"
-    />
+    ></path>
   </svg>
+  // <svg
+  //   xmlns="http://www.w3.org/2000/svg"
+  //   width="24"
+  //   height="25"
+  //   viewBox="0 0 24 25"
+  //   fill="none"
+  //   className="duration-300 ease-in-out hover:translate-x-1 cursor-pointer"
+  // >
+  //   <path
+  //     d="M9 18.5L15 12.5L9 6.5"
+  //     stroke="#232324"
+  //     strokeWidth="1"
+  //     strokeLinecap="round"
+  //     strokeLinejoin="round"
+  //   />
+  // </svg>
 );
 
 export const Menu = () => (
@@ -136,6 +153,113 @@ export const SvgComponent = ({ className }: { className?: string }) => (
       strokeLinejoin="round"
       strokeWidth={1.5}
       d="m9 18.5 6-6-6-6"
+    />
+  </svg>
+);
+
+export const FastComponentSvg = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="32"
+    height="33"
+    viewBox="0 0 32 33"
+    fill="none"
+  >
+    <path
+      d="M5.33336 19.2566C5.08105 19.2575 4.83367 19.1868 4.61997 19.0526C4.40626 18.9185 4.23501 18.7265 4.1261 18.4989C4.01718 18.2713 3.97509 18.0174 4.0047 17.7669C4.0343 17.5163 4.1344 17.2793 4.29336 17.0833L17.4934 3.48331C17.5924 3.36902 17.7273 3.29179 17.876 3.26429C18.0247 3.23679 18.1783 3.26066 18.3117 3.33199C18.445 3.40331 18.5501 3.51784 18.6098 3.65679C18.6695 3.79574 18.6801 3.95084 18.64 4.09665L16.08 12.1233C16.0045 12.3253 15.9792 12.5427 16.0062 12.7567C16.0331 12.9706 16.1116 13.1749 16.2348 13.3519C16.3581 13.5289 16.5224 13.6733 16.7137 13.7729C16.9051 13.8724 17.1177 13.924 17.3334 13.9233H26.6667C26.919 13.9225 27.1664 13.9932 27.3801 14.1273C27.5938 14.2615 27.7651 14.4535 27.874 14.6811C27.9829 14.9087 28.025 15.1625 27.9954 15.4131C27.9658 15.6637 27.8657 15.9007 27.7067 16.0966L14.5067 29.6966C14.4077 29.8109 14.2728 29.8882 14.1241 29.9157C13.9754 29.9432 13.8217 29.9193 13.6884 29.848C13.555 29.7767 13.4499 29.6621 13.3903 29.5232C13.3306 29.3842 13.3199 29.2291 13.36 29.0833L15.92 21.0566C15.9955 20.8546 16.0209 20.6373 15.9939 20.4233C15.9669 20.2093 15.8885 20.0051 15.7652 19.8281C15.642 19.6511 15.4777 19.5066 15.2863 19.4071C15.095 19.3076 14.8824 19.2559 14.6667 19.2566H5.33336Z"
+      stroke="#020212"
+      strokeWidth="1.33333"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
+
+export const IntegrateComponentSvg = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="32"
+    height="33"
+    viewBox="0 0 32 33"
+    fill="none"
+  >
+    <path
+      d="M21.3333 24.59L29.3333 16.59L21.3333 8.58997"
+      stroke="#020212"
+      strokeWidth="1.33333"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M10.6667 8.58997L2.66667 16.59L10.6667 24.59"
+      stroke="#020212"
+      strokeWidth="1.33333"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
+
+export const BuildComponentSvg = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="32"
+    height="33"
+    viewBox="0 0 32 33"
+    fill="none"
+  >
+    <path
+      d="M8 3.25659V21.9233C8 22.6305 8.28095 23.3088 8.78105 23.8089C9.28115 24.309 9.95942 24.5899 10.6667 24.5899H29.3333"
+      stroke="#020212"
+      strokeWidth="1.33333"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M24 29.9233V11.2566C24 10.5494 23.719 9.87111 23.2189 9.37101C22.7189 8.87092 22.0406 8.58997 21.3333 8.58997H2.66666"
+      stroke="#020212"
+      strokeWidth="1.33333"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
+
+export const CostComponentSvg = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="32"
+    height="33"
+    viewBox="0 0 32 33"
+    fill="none"
+  >
+    <path
+      d="M26.6667 3.25659H5.33332C3.86056 3.25659 2.66666 4.4505 2.66666 5.92326V11.2566C2.66666 12.7294 3.86056 13.9233 5.33332 13.9233H26.6667C28.1394 13.9233 29.3333 12.7294 29.3333 11.2566V5.92326C29.3333 4.4505 28.1394 3.25659 26.6667 3.25659Z"
+      stroke="#020212"
+      strokeWidth="1.33333"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M26.6667 19.2566H5.33332C3.86056 19.2566 2.66666 20.4505 2.66666 21.9233V27.2566C2.66666 28.7294 3.86056 29.9233 5.33332 29.9233H26.6667C28.1394 29.9233 29.3333 28.7294 29.3333 27.2566V21.9233C29.3333 20.4505 28.1394 19.2566 26.6667 19.2566Z"
+      stroke="#020212"
+      strokeWidth="1.33333"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M8 8.58997H8.01333"
+      stroke="#020212"
+      strokeWidth="1.33333"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M8 24.59H8.01333"
+      stroke="#020212"
+      strokeWidth="1.33333"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
   </svg>
 );
