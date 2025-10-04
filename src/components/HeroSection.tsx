@@ -149,7 +149,7 @@ function HeroSection() {
                     <div className="flex gap-3 sm:gap-4  justify-center items-center">
                       <div className="  shrink-0 w-[59px] h-[59px]  md:w-[30px] md:h-[30px] xl:w-[59px] xl:h-[59px]  rounded-full border-2 border-[#02021229] flex justify-center items-center">
                         <Image
-                          src="/images/risc-zero.svg.png"
+                          src="/Images/risc-zero.svg.png"
                           alt="risc-zero"
                           width={28.173}
                           height={19.956}
@@ -158,7 +158,7 @@ function HeroSection() {
                       </div>
                       <div className="shrink-0  w-[59px] h-[59px]    md:w-[30px] md:h-[30px] xl:w-[59px] xl:h-[59px] rounded-full border-2 border-[#02021229] flex justify-center items-center">
                         <Image
-                          src="/images/noir.svg.png"
+                          src="/Images/noir.svg.png"
                           alt="risc-zero"
                           width={28.173}
                           height={19.956}
@@ -167,7 +167,7 @@ function HeroSection() {
                       </div>
                       <div className=" shrink-0 relative   w-[59px] h-[59px]   md:w-[30px] md:h-[30px] xl:w-[59px] xl:h-[59px] rounded-full ">
                         <Image
-                          src="/images/succinct.svg.png"
+                          src="/Images/succinct.svg.png"
                           alt="risc-zero"
                           fill
                           className="object-cover"
@@ -177,14 +177,14 @@ function HeroSection() {
                     <div className="flex gap-3 justify-center sm:gap-4 items-center">
                       <div className=" shrink-0 w-[59px] h-[59px]   md:w-[30px] md:h-[30px] xl:w-[59px] xl:h-[59px] rounded-full relative">
                         <Image
-                          src="/images/space-and-time.svg.png"
+                          src="/Images/space-and-time.svg.png"
                           alt="risc-zero"
                           fill
                         />
                       </div>
                       <div className=" shrink-0 relative  w-[59px] h-[59px]    md:w-[30px] md:h-[30px] xl:w-[59px] xl:h-[59px] rounded-full border-2 border-[#02021229] flex justify-center items-center  ">
                         <Image
-                          src="/images/Vector.png"
+                          src="/Images/Vector.png"
                           alt="risc-zero"
                           fill
                           className="object-contain"
@@ -205,7 +205,7 @@ function HeroSection() {
                 <div className="w-full h-full flex justify-center items-center">
                   <div className="relative shrink-0 w-24 h-24 lg:w-28 lg:h-28 xl:w-32 xl:h-32">
                     <Image
-                      src="/images/zkVerify.png"
+                      src="/Images/zkVerify.png"
                       alt="zkverify"
                       aria-label="zk verify"
                       fill
@@ -225,14 +225,14 @@ function HeroSection() {
                     <div className="flex gap-3 justify-center items-center">
                       <div className="  relative shrink-0 w-[59px] h-[59px]  md:w-[30px] md:h-[30px] xl:w-[59px] xl:h-[59px]   flex justify-center items-center">
                         <Image
-                          src="/images/flow.svg.png"
+                          src="/Images/flow.svg.png"
                           alt="risc-zero"
                           fill
                         />
                       </div>
                       <div className=" relative  shrink-0 w-[59px] h-[59px]  md:w-[30px] md:h-[30px] xl:w-[59px] xl:h-[59px]   flex justify-center items-center">
                         <Image
-                          src="/images/PictureBase.png"
+                          src="/Images/PictureBase.png"
                           alt="risc-zero"
                           fill
                         />
@@ -241,21 +241,21 @@ function HeroSection() {
                     <div className="flex gap-3  justify-center items-center">
                       <div className="  relative shrink-0 w-[59px] h-[59px]  md:w-[30px] md:h-[30px] xl:w-[59px] xl:h-[59px]   flex justify-center items-center">
                         <Image
-                          src="/images/optimism.png"
+                          src="/Images/optimism.png"
                           alt="risc-zero"
                           fill
                         />
                       </div>
                       <div className=" relative  shrink-0 w-[59px] h-[59px]  md:w-[30px] md:h-[30px] xl:w-[59px] xl:h-[59px]   flex justify-center items-center">
                         <Image
-                          src="/images/ethereum.svg.png"
+                          src="/Images/ethereum.svg.png"
                           alt="risc-zero"
                           fill
                         />
                       </div>
                       <div className=" relative  shrink-0 w-[59px] h-[59px]  md:w-[30px] md:h-[30px] xl:w-[59px] xl:h-[59px]   flex justify-center items-center">
                         <Image
-                          src="/images/arbitrum.svg.png"
+                          src="/Images/arbitrum.svg.png"
                           alt="risc-zero"
                           fill
                         />
@@ -264,21 +264,21 @@ function HeroSection() {
                     <div className="flex gap-3  justify-center items-center">
                       <div className="  relative shrink-0 w-[59px] h-[59px]  md:w-[30px] md:h-[30px] xl:w-[59px] xl:h-[59px]   flex justify-center items-center">
                         <Image
-                          src="/images/PictureApe.png"
+                          src="/Images/PictureApe.png"
                           alt="risc-zero"
                           fill
                         />
                       </div>
                       <div className=" relative  shrink-0 w-[59px] h-[59px]  md:w-[30px] md:h-[30px] xl:w-[59px] xl:h-[59px]   flex justify-center items-center">
                         <Image
-                          src="/images/horizen.svg.png"
+                          src="/Images/horizen.svg.png"
                           alt="risc-zero"
                           fill
                         />
                       </div>
                       <div className=" relative  shrink-0 w-[59px] h-[59px]  md:w-[30px] md:h-[30px] xl:w-[59px] xl:h-[45.591px]   flex justify-center items-center">
                         <Image
-                          src="/images/web2.svg.png"
+                          src="/Images/web2.svg.png"
                           alt="risc-zero"
                           fill
                           className="object-center"

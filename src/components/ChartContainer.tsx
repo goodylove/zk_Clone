@@ -41,7 +41,7 @@ const TrustedCompaniesLogo = () => {
             className="flex items-center justify-center flex-shrink-0"
           >
             <Image
-              src={`/images/trusted-logos/${img}.png`}
+              src={`/Images/trusted-logos/${img}.png`}
               width={200}
               height={69}
               alt="trusted company logo"
