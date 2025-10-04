@@ -3,6 +3,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --bg: #020212;
 }
 
 @theme inline {
@@ -10,7 +11,8 @@
   --color-foreground: var(--foreground);
 
   --font-grotesk: var(--font-space-grotesk);
-  --font-monigue: var(--font-monigue-display)
+  --font-monigue: var(--font-monigue-display);
+  --color-void: var(--bg);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,19 +26,17 @@ body {
   background: #fcfcfc;
 }
 
-
 /* Style the entire scrollbar */
 ::-webkit-scrollbar {
- width: 6px; /* Set the width of the vertical scrollbar */
+  width: 6px; /* Set the width of the vertical scrollbar */
   height: 4px;
-/* Set the height of the horizontal scrollbar */
+  /* Set the height of the horizontal scrollbar */
 }
 
 /* Style the scrollbar track */
 ::-webkit-scrollbar-track {
   background: #f1f1f1;
   border-radius: 10px;
- 
 }
 
 /* Style the scrollbar thumb */
@@ -45,3 +45,6 @@ body {
   border-radius: 10px;
 }
 
+.border-void {
+  border-color: color-mix(in oklab, var(--bg) 20%, transparent);
+}

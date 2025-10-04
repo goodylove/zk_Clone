@@ -263,3 +263,29 @@ export const CostComponentSvg = () => (
     />
   </svg>
 );
+
+export const ArrowRight = () => (
+  <svg
+    width="33"
+    height="33"
+    viewBox="0 0 33 33"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    // className="w-32 h-32"
+  >
+    <path
+      d="M6.99666 16.1899H25.6633"
+      stroke="#020212"
+      stroke-width="2.66667"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M16.33 6.85669L25.6633 16.19L16.33 25.5234"
+      stroke="#020212"
+      stroke-width="2.66667"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </svg>
+);
