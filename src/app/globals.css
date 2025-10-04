@@ -48,3 +48,13 @@ body {
 .border-void {
   border-color: color-mix(in oklab, var(--bg) 20%, transparent);
 }
+
+.trustedLogo {
+  gap: 128px;
+  flex-wrap: nowrap;
+  display: flex;
+  translate: none;
+  rotate: none;
+  scale: none;
+  transform: translate3d(0px, 0px, 0px);
+}

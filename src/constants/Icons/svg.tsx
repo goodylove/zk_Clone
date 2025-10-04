@@ -276,16 +276,48 @@ export const ArrowRight = () => (
     <path
       d="M6.99666 16.1899H25.6633"
       stroke="#020212"
-      stroke-width="2.66667"
+      strokeWidth="2.66667"
       stroke-linecap="round"
       stroke-linejoin="round"
     />
     <path
       d="M16.33 6.85669L25.6633 16.19L16.33 25.5234"
       stroke="#020212"
-      stroke-width="2.66667"
+      strokeWidth="2.66667"
       stroke-linecap="round"
       stroke-linejoin="round"
     />
+  </svg>
+);
+
+export const BgLineTop = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 1728 155"
+    fill="none"
+    className="w-full h-auto"
+    preserveAspectRatio="none"
+  >
+    <path
+      d="M0 155C0 145.95 1728 0 1728 0V155H0Z"
+      fill="currentColor"
+      className="text-void"
+    ></path>
+  </svg>
+);
+
+export const BgLineBottom = () => (
+  <svg
+    className="w-full h-auto"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 1728 155"
+    fill="none"
+    preserveAspectRatio="none"
+  >
+    <path
+      d="M1728 0.0526316C1728 4.26316 0 155 0 155V0.0526316H1728Z"
+      fill="currentColor"
+      className="text-void"
+    ></path>
   </svg>
 );
