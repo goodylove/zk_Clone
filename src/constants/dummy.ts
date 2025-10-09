@@ -57,10 +57,10 @@ export const RoadMapConfig: RoadMapConfigType[] = [
         tag: 'H2 2024',
         title: 'Incentivized Testnet',
         list: [
-            'In-person & Online Hackathons',
             'Incentivized Testnet',
+            'In-person & Online Hackathons',
             'Block Explorer',
-            'Consensus Mechanism',
+           
             'Ultraplonk, Space and Time Proof of SQL Verifiers',
             'Tools: Explorer, OpenGov, Test Token Faucet'
         ]
