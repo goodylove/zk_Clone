@@ -6,6 +6,8 @@
   --bg: #020212;
 }
 
+
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -56,5 +58,18 @@ body {
   translate: none;
   rotate: none;
   scale: none;
-  transform: translate3d(0px, 0px, 0px);
+  animation: slideMotion 30s linear infinite;
+  will-change: transform;
+}
+
+@keyframes slideMotion {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.trustedLogo:hover {
+  animation-play-state: paused;
 }
