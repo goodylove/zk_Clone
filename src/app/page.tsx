@@ -2,6 +2,7 @@ import HeroSection from "@/components/HeroSection";
 import ChartContainer from "@/components/ChartContainer";
 import RoadMap from "@/components/RoadMap";
 import { Divider } from "@/constants/Icons/svg";
+import UseCase from "@/components/UseCase";
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
       <div className="hidden lg:block -mb-[0.5px] xl:-mb-[1.2px]">
         <Divider />
       </div>
-      <RoadMap />
+      <UseCase />
     </>
   );
 }
