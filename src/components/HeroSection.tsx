@@ -4,7 +4,11 @@ import React from "react";
 import Navbar from "./Navbar";
 import NotificationBanner from "./NotificationBanner";
 import { Button } from "./ui/button";
-import { ArrowRight, CaretRight, SvgComponent } from "@/constants/Icons/svg";
+import {
+  ArrowRight,
+  CaretRight,
+  SvgComponent,
+} from "@/constants/Icons/svg";
 import Link from "next/link";
 import { features } from "@/constants/dummy";
 import { cn } from "@/lib/utils";
@@ -195,6 +199,7 @@ function HeroSection() {
                 </div>
               </Card>
               <ArrowRight />
+              {/* <MobileArrow /> */}
               <Card>
                 <div className="absolute top-6 left-6 lg:top-8 lg:left-8  text-void">
                   <span className="text-sm font-light leading-[140%] uppercase tracking-[0.81px] lg:text-base font-grotesk ">
@@ -214,6 +219,7 @@ function HeroSection() {
                 </div>
               </Card>
               <ArrowRight />
+              {/* <MobileArrow /> */}
               <Card>
                 <div className="absolute top-6 left-6 lg:top-8 lg:left-8  text-void">
                   <span className="text-sm font-light leading-[140%] uppercase tracking-[0.81px] lg:text-base font-grotesk ">

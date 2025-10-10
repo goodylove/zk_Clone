@@ -3,6 +3,7 @@ import ChartContainer from "@/components/ChartContainer";
 import RoadMap from "@/components/RoadMap";
 import { Divider } from "@/constants/Icons/svg";
 import UseCase from "@/components/UseCase";
+import Empowering from "@/components/Empowering";
 
 export default function Home() {
   return (
@@ -14,6 +15,8 @@ export default function Home() {
         <Divider />
       </div>
       <UseCase />
+
+      <Empowering />
     </>
   );
 }

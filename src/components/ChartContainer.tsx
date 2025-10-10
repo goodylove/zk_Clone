@@ -11,7 +11,7 @@ import Image from "next/image";
 function ChartContainer() {
   return (
     <section className="">
-      <div className="hidden lg:block -mb-[0.5px] xl:-mb-[1.2px] relative z-50">
+      <div className=" -mb-[0.5px] xl:-mb-[1.2px] relative z-50">
         <BgLineTop />
       </div>
       <div className="bg-void py-10 md:py-16 lg:py-[50px]">

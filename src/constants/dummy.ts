@@ -60,7 +60,7 @@ export const RoadMapConfig: RoadMapConfigType[] = [
             'Incentivized Testnet',
             'In-person & Online Hackathons',
             'Block Explorer',
-           
+
             'Ultraplonk, Space and Time Proof of SQL Verifiers',
             'Tools: Explorer, OpenGov, Test Token Faucet'
         ]
@@ -88,4 +88,22 @@ export const RoadMapConfig: RoadMapConfigType[] = [
             'Expanded Community Quests'
         ]
     }
+]
+
+export const EmpowerData = [
+    {
+        title: 'ZKFeedback',
+        by: 'MX',
+        description: 'ZKFeedback is a decentralized feedback system leveraging zero- knowledge proofs to ensure user privacy while providing transparent and public feedback.'
+    },
+    {
+        title: 'Provable Multiparty Delay Encryption',
+        by: 'PROVABLE MDE',
+        description: 'Provable MDE, a novel solution for MEV. Proof for exponent range check is being used in some important cryptographic primitives as a critical component.'
+    },
+    {
+        title: 'Crypto PoS',
+        by: 'MX',
+        description: 'Provable MDE, a novel solution for MEV. Proof for exponent range check is being used in some important cryptographic primitives as a critical component.'
+    },
 ]
