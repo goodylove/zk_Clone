@@ -23,7 +23,7 @@ function Navbar() {
               (navItem, idx) => (
                 <li
                   key={idx}
-                  className="text-[#020712] not-italic text-xl leading-7 h-7 font-normal  font-grotesk cursor-pointer"
+                  className="text-[#020712] not-italic text-xl leading-7 h-7 font-normal  font-grotesk cursor-pointer hover:text-[#6190f5]"
                 >
                   {navItem}
                 </li>
@@ -32,7 +32,7 @@ function Navbar() {
           </ul>
         </nav>
 
-        <Button variant="outline" className="hidden lg:flex">
+        <Button variant="outline" className="hidden lg:flex hover:border-none">
           Start Building <CaretRight />
         </Button>
         <Button variant="outline" className="block lg:hidden">

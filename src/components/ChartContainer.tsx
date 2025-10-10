@@ -14,7 +14,7 @@ function ChartContainer() {
       <div className="hidden lg:block -mb-[0.5px] xl:-mb-[1.2px] relative z-50">
         <BgLineTop />
       </div>
-      <div className="bg-void py-10 md:py-16 lg:py-[120px]">
+      <div className="bg-void py-10 md:py-16 lg:py-[50px]">
         <div className="flex flex-col items-center justify-start  ">
           <div className="flex justify-center items-center">
             <p className="text-[#FCFCFC] text-[15px] font-bold uppercase tracking-[0.6px]  leading-[16.5px] font-grotesk">

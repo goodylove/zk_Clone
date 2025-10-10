@@ -6,7 +6,9 @@
   --bg: #020212;
 }
 
-
+html{
+ scroll-behavior: smooth;
+}
 
 @theme inline {
   --color-background: var(--background);
