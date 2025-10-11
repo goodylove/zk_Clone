@@ -4,6 +4,8 @@ import RoadMap from "@/components/RoadMap";
 import { Divider } from "@/constants/Icons/svg";
 import UseCase from "@/components/UseCase";
 import Empowering from "@/components/Empowering";
+import Update from "@/components/Update";
+import StayUpToDate from "@/components/StayUpToDate";
 
 export default function Home() {
   return (
@@ -17,6 +19,9 @@ export default function Home() {
       <UseCase />
 
       <Empowering />
+
+      <Update />
+      <StayUpToDate />
     </>
   );
 }
