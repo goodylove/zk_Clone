@@ -24,15 +24,15 @@ ChartJS.register(
   Legend
 );
 
-const fontGrotesk = getComputedStyle(document.documentElement)
-  .getPropertyValue("--font-grotesk")
-  .trim();
+// const fontGrotesk = getComputedStyle(document.documentElement)
+//   .getPropertyValue("--font-grotesk")
+//   .trim();
 
-ChartJS.defaults.font = {
-  family: "--font-space-grotesk",
-  size: 13,
-  weight: 700,
-};
+// ChartJS.defaults.font = {
+//   family: "--font-space-grotesk",
+//   size: 13,
+//   weight: 700,
+// };
 
 const options: ChartOptions<"line"> = {
   responsive: true,

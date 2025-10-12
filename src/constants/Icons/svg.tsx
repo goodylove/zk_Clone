@@ -135,10 +135,6 @@ export const Menu = () => (
   </svg>
 );
 
-interface SvgComponentProps extends SVGProps<SVGSVGElement> {
-  hover?: boolean;
-}
-
 export const SvgComponent = ({ className }: { className?: string }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
