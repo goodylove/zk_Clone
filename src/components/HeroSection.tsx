@@ -4,11 +4,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import NotificationBanner from "./NotificationBanner";
 import { Button } from "./ui/button";
-import {
-  ArrowRight,
-  CaretRight,
-  SvgComponent,
-} from "@/constants/Icons/svg";
+import { ArrowRight, CaretRight, SvgComponent } from "@/constants/Icons/svg";
 import Link from "next/link";
 import { features } from "@/constants/dummy";
 import { cn } from "@/lib/utils";
@@ -27,7 +23,7 @@ function HeroSection() {
         autoPlay
         muted
         loop
-        className="absolute  backdrop-blur-lg w-full max-w-[1440px] bg-[#fcfcfc]/20   object-cover z-0 xl:-top-[14%]  top-4 lg:-top-32 -right-[200px] lg:-right-[300px] xl:-right-[470px]"
+        className="absolute  backdrop-blur-lg w-full max-w-[1440px] bg-[#fcfcfc]/20   object-cover z-0 xl:-top-[14%]  top-4 lg:-top-32 -right-[200px] lg:-right-[300px] xl:-right-[470px] "
         src="/hero-animation.mp4"
       />
       <div className="relative z-[1000] px-5  md:px-10  xl:px-[60px] md:min-h-screen">

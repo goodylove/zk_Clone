@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { Button } from "./ui/button";
 import {
@@ -7,6 +8,7 @@ import {
   SvgComponent,
 } from "@/constants/Icons/svg";
 import Image from "next/image";
+import { LineChartComponent } from "./ui/LineChart";
 
 function ChartContainer() {
   return (
@@ -14,8 +16,8 @@ function ChartContainer() {
       <div className=" -mb-[0.5px] xl:-mb-[1.2px] relative z-50">
         <BgLineTop />
       </div>
-      <div className="bg-void py-10 md:py-16 lg:py-[50px]">
-        <div className="flex flex-col items-center justify-start  ">
+      <div className="bg-void w-full">
+        <div className="flex flex-col items-center justify-start  py-10 md:py-16 lg:py-[55px]">
           <div className="flex justify-center items-center">
             <p className="text-[#FCFCFC] text-[15px] font-bold uppercase tracking-[0.6px]  leading-[16.5px] font-grotesk">
               Trusted by the Best
@@ -23,21 +25,24 @@ function ChartContainer() {
           </div>
           <TrustedCompaniesLogo />
         </div>
-        <div className=" mt-34 px-4 ">
-          <div className="px-11">
-            <h1 className=" text-[60px] md:text-[100px] lg:text-[170px]  shrink-0  font-monigue lg:font-light text-white w-full uppercase leading-[0.74]">
-              5,934,907
-            </h1>
-            <p className="text-lg mt-8  w-full lg:pointer-events-auto text-[#FCFCFC] font-grotesk leading-[28px] font-light">
-              Proofs Verified
-            </p>
+        <div className="bg-void py-10  max-w-5xl  mx-auto w-full">
+          <div className="  px-4 flex flex-col    ">
+            <div className=" mb-8">
+              <h1 className=" text-[60px] md:text-[100px] lg:text-[170px]  shrink-0  font-monigue lg:font-light text-white w-full uppercase leading-[0.74]">
+                5,934,907
+              </h1>
+              <p className="text-lg mt-8  w-full lg:pointer-events-auto text-[#FCFCFC] font-grotesk leading-[28px] font-light">
+                Proofs Verified
+              </p>
+            </div>
+            <LineChartComponent />
           </div>
-        </div>
-        <div className="mt-10 flex justify-center items-center">
-          <Button variant="outline" className="px-[24px] group">
-            Proof Verification in Action
-            <SvgComponent className="stroke-[#020212] group-hover:stroke-white" />
-          </Button>
+          <div className="my-24 flex justify-center items-center">
+            <Button variant="outline" className="px-[24px] group">
+              Proof Verification in Action
+              <SvgComponent className="stroke-[#020212] group-hover:stroke-white" />
+            </Button>
+          </div>
         </div>
       </div>
       <div className=" -mt-[0.5px]">

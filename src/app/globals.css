@@ -6,8 +6,8 @@
   --bg: #020212;
 }
 
-html{
- scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
 @theme inline {
@@ -28,6 +28,7 @@ html{
 
 body {
   background: #fcfcfc;
+  font-family: var(--font-grotesk);
 }
 
 /* Style the entire scrollbar */
