@@ -46,15 +46,6 @@ const options: ChartOptions<"line"> = {
   },
   scales: {
     y: {
-      //   title: {
-      //     display: true,
-      //     text: "Value",
-      //    color: "#ffffff",
-      //     font: {
-      //       size: 16,
-      //       weight: "bold",
-      //     },
-      //   },
       ticks: {
         color: "#ffffff",
         font: {
@@ -62,12 +53,6 @@ const options: ChartOptions<"line"> = {
           size: 23,
           //   family: "sans",
         },
-
-        // font: {
-        //   family: `var(--font-grotesk)`,
-        //   size: 40,
-        //   weight: 900,
-        // },
 
         callback: function (tickValue) {
           // Safely cast to number and format
@@ -83,7 +68,8 @@ const options: ChartOptions<"line"> = {
         color: "#ffffff",
         font: {
           family: "--font-space-grotesk",
-          weight: 900,
+          weight: 700,
+          size: 23,
         },
       },
       grid: {
