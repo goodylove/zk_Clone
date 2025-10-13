@@ -78,6 +78,7 @@ function Empowering() {
                 className="inline-flex items-center justify-center brand-radius overflow-clip transition-all duration-200 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2 text-void focus:ring-void/50 touch-target pointer-events-none"
                 aria-label="Join Discord"
               >
+            
                 <Discord />
               </span>
             </Link>

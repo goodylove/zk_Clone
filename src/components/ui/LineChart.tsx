@@ -24,16 +24,6 @@ ChartJS.register(
   Legend
 );
 
-// const fontGrotesk = getComputedStyle(document.documentElement)
-//   .getPropertyValue("--font-grotesk")
-//   .trim();
-
-// ChartJS.defaults.font = {
-//   family: "--font-space-grotesk",
-//   size: 13,
-//   weight: 700,
-// };
-
 const options: ChartOptions<"line"> = {
   responsive: true,
   plugins: {
@@ -46,20 +36,24 @@ const options: ChartOptions<"line"> = {
   },
   scales: {
     y: {
+      min: 0,
+      max: 7000000,
       ticks: {
         color: "#ffffff",
         font: {
           weight: 700,
-          size: 23,
+          size: 30,
           //   family: "sans",
         },
 
         callback: function (tickValue) {
           // Safely cast to number and format
           const value = Number(tickValue);
-          if (value >= 1_000_000) return value / 1_000_000 + "m";
-          //   if (value >= 1_000) return value / 1_000 + "k";
-          return value;
+          if ([0, 2000000, 4000000, 5000000, 7000000].includes(value)) {
+            if (value >= 1_000_000) return value / 1_000_000 + "m";
+
+            return value;
+          }
         },
       },
     },
