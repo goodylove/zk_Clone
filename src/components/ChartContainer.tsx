@@ -9,10 +9,11 @@ import {
 } from "@/constants/Icons/svg";
 import Image from "next/image";
 import { LineChartComponent } from "./ui/LineChart";
+import { motion, stagger, useAnimation } from "motion/react";
 
 function ChartContainer() {
   return (
-    <section className="">
+    <motion.section className="">
       <div className=" -mb-[0.5px] xl:-mb-[1.2px] relative z-50">
         <BgLineTop />
       </div>
@@ -28,9 +29,9 @@ function ChartContainer() {
         <div className="bg-void py-10  max-w-5xl  mx-auto w-full">
           <div className="  px-4 flex flex-col    ">
             <div className=" mb-8">
-              <h1 className=" text-[60px] md:text-[100px] lg:text-[170px]  shrink-0  font-monigue lg:font-light text-white w-full uppercase leading-[0.74]">
+              <motion.h1 className=" text-[60px] md:text-[100px] lg:text-[170px]  shrink-0  font-monigue lg:font-light text-white w-full uppercase leading-[0.74]">
                 5,934,907
-              </h1>
+              </motion.h1>
               <p className="text-lg mt-8  w-full lg:pointer-events-auto text-[#FCFCFC] font-grotesk leading-[28px] font-light">
                 Proofs Verified
               </p>
@@ -48,7 +49,7 @@ function ChartContainer() {
       <div className=" -mt-[0.5px]">
         <BgLineBottom />
       </div>
-    </section>
+    </motion.section>
   );
 }
 
